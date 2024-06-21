@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion'
 
-import { MdDelete } from '../assets/icons';
+import { MdDelete } from '../assets/icons'
 import { click } from '../animations'
 
 const MultipleInput = ({ id, value, inputState, inputStateFunction }) => {
@@ -37,7 +37,7 @@ const MultipleInput = ({ id, value, inputState, inputStateFunction }) => {
                 className=''
             >
                 {inputState.length > 1 && (
-                    <MdDelete className='text-red-600 text-2xl'/>
+                    <MdDelete className='text-red-600 text-2xl' />
                 )}
             </motion.button>
 
@@ -45,4 +45,4 @@ const MultipleInput = ({ id, value, inputState, inputStateFunction }) => {
     );
 };
 
-export default MultipleInput;
+export default MultipleInput

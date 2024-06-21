@@ -9,7 +9,7 @@ const Button = ({ type, name }) => {
         <motion.button
             {...click}
             type={type}
-            className='px-4 py-1 bg-buttonColor text-textColor border-2 border-buttonColor font-semibold rounded-md hover:text-buttonColor hover:bg-transparent'
+            className='px-4 py-1 bg-primaryColor text-textColor border-2 border-primaryColor font-semibold rounded-md hover:text-primaryColor hover:bg-transparent'
         >
             {name}
         </motion.button>
